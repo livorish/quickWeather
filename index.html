@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+      <h1>QuickWeather </h1>
+   </header>
+   <div class="main">
+      <div id="search">
+         <label for="city">City name</label>
+         <input type="text" id="city">
+         <button type="button">Show weather</button>
+      </div>
+      <div id="load">loading...</div>
+      <div id="weather">
+         <h1 id="weatherCity">City name</h1>
+         <div id="weatherDescription">Weather Description</div>
+         <div id="weatherTemperature">Temperature</div>
+      </div>
+   </div>
+   <script src="init.js"></script>
+   <script src="weather-data.js"></script>
+   <script src="app.js"></script>
+</body>
+
+</html>
